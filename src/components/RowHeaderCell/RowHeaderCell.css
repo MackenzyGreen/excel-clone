@@ -1,0 +1,10 @@
+.row-header {
+    min-height: 2rem;
+    min-width: 3rem;
+    max-width: 3rem;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

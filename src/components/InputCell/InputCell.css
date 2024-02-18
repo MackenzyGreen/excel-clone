@@ -1,0 +1,16 @@
+.inputCell {
+    min-width: 5rem;
+    max-width: 5rem;
+    border: none;
+    outline: none;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.inputCell:focus {
+    padding: .5rem;
+}
+
+.inputCell:hover {
+    background-color: lightgray;
+}

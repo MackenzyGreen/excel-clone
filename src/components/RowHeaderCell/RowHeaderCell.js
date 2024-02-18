@@ -2,7 +2,7 @@ import './RowHeaderCell.css';
 
 const RowHeaderCell = ({ title }) => {
     return (
-        <div key={title}>
+        <div className="row-header" key={title}>
             {title}
         </div>
     )

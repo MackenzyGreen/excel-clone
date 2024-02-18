@@ -6,3 +6,8 @@
 .columnHeaderContainer {
   display: flex;
 }
+
+.rowsContainer {
+  display: flex;
+  flex-direction: column;
+}
