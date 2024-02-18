@@ -1,0 +1,15 @@
+.headerCell {
+    min-width: 5rem;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerCell-empty {
+    min-width: 2rem;
+    min-height: 2rem;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
