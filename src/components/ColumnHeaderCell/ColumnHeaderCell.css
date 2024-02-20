@@ -1,5 +1,4 @@
 .headerCell {
-    min-width: 5rem;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
     display: flex;
@@ -9,6 +8,7 @@
 
 .headerCell-empty {
     min-width: 3rem;
+    max-width: 3rem;
     min-height: 2rem;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
