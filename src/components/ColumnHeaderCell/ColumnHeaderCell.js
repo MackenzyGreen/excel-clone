@@ -7,8 +7,7 @@ import './ColumnHeaderCell.css';
 const ColumnHeaderCell = ({title, key_id}) => {
     const width = useSelector((state) => state?.styles?.column[title] ? state?.styles?.column[title] : defaultSizes.width);
 
-    // eslint-disable-next-line
-    const getStyle = useMemo(() => ({ minWidth: width }));
+    const getStyle = useMemo(() => ({ minWidth: width }), [width]);
 
     return useMemo(() => (
         <div 
