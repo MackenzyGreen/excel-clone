@@ -1,9 +1,18 @@
 .headerCell {
-    border-right: 1px solid black;
+    width: 100%;
     border-bottom: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.headerContainer {
+    display: flex;
+}
+
+.line {
+    border-left: 1px solid black;
+    cursor: w-resize;
 }
 
 .headerCell-empty {

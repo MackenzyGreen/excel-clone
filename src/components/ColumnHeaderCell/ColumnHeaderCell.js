@@ -9,15 +9,28 @@ const ColumnHeaderCell = ({title, key_id}) => {
 
     const getStyle = useMemo(() => ({ minWidth: width }), [width]);
 
-    return useMemo(() => (
-        <div 
-            className={`headerCell${title === '' ? '-empty' : ''}`} 
-            key={key_id} 
-            style={title !== '' ? getStyle : {}}
-        >
-            {title}
-        </div>
-    ), [getStyle, title, key_id]);
+    return useMemo(() => {
+        if (title === '') {
+            return (
+                <div 
+                    className='headerCell-empty' 
+                    key={key_id} 
+                />
+            )
+        }
+        return (
+            <div className="headerContainer" style={getStyle}>
+                <div 
+                    className={`headerCell${title === '' ? '-empty' : ''}`} 
+                    key={key_id}
+                >
+                    {title}
+                </div>
+                <span className='line' onMouseDown={dragMouseDown} />
+            </div>
+            
+        )
+    }, [getStyle, title, key_id, dragMouseDown]);
 }
 
 export default ColumnHeaderCell;
