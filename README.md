@@ -4,10 +4,10 @@ This is a side project to slowly challenge myself to replicate features found in
 
 ## Current Objectives
 
-Click and drag to resize column
-Click and drag to resize rows
-Cell Referencing
-Implement some basic functions (ex: SUM, ADD, etc)
+- Click and drag to resize column
+- Click and drag to resize rows
+- Cell Referencing
+- Implement some basic functions (ex: SUM, ADD, etc)
 
 ### Tech Stack
 
